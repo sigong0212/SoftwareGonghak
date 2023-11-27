@@ -1,0 +1,75 @@
+
+        .ipryeuk {
+            position: absolute;
+            top: 200px;
+            left: 230px;
+            z-index: 1;
+        }
+
+        .boy {
+            position: absolute;
+            top: 170px;
+            left: 20px;
+        }
+
+        .boy-chat {
+            position: absolute;
+            top: 170px;
+            left: 120px;
+        }
+
+        .sejong {
+            position: absolute;
+            top: 480px;
+            right: 30px;
+        }
+
+        .sejong-chat {
+            position: absolute;
+            top: 480px;
+            right: 130px;
+        }
+
+        .geulsi {
+            position: absolute;
+            top: 40px;
+            right: 90px;
+        }
+
+        .icon {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+
+        .sinabro {
+            position: absolute;
+            top: 55px;
+            left: 140px;
+        }
+        .glasscat {
+            position: absolute;
+            top: 250px;
+            left: 300px;
+        }
+        .glasscat2 {
+            position: absolute;
+            top: 250px;
+            left: 500px;
+        }
+
+
+        #output {
+            position: absolute;
+            top: 460px;
+            left: 440px;
+            margin-top: 50px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url('src/batang.png');
+            background-size: cover;
+        }
