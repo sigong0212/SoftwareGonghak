@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시나브로</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-image: url('src/batang.png');
+            background-size: cover;
+        }
+
+        .ipryeuk {
+            position: absolute;
+            top: 200px;
+            left: 230px;
+            z-index: 1;
+        }
+
+        .boy {
+            position: absolute;
+            top: 170px;
+            left: 20px;
+        }
+
+        .boy-chat {
+            position: absolute;
+            top: 170px;
+            left: 120px;
+        }
+
+        .sejong {
+            position: absolute;
+            top: 480px;
+            right: 30px;
+        }
+
+        .sejong-chat {
+            position: absolute;
+            top: 480px;
+            right: 130px;
+        }
+
+        .geulsi {
+            position: absolute;
+            top: 40px;
+            right: 90px;
+        }
+
+        .icon {
+            position: absolute;
+            top: 30px;
+            left: 40px;
+        }
+
+        .sinabro {
+            position: absolute;
+            top: 55px;
+            left: 140px;
+        }
+        .glasscat {
+            position: absolute;
+            top: 250px;
+            left: 300px;
+        }
+        .glasscat2 {
+            position: absolute;
+            top: 250px;
+            left: 500px;
+        }
+
+
+        #output {
+            position: absolute;
+            top: 460px;
+            left: 440px;
+            margin-top: 50px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form name="fo" method="get" class="ipryeuk">
+        <input type="text" size="70" value="단어 또는 문장을 입력하세요">
+        <input type="submit" value="완료">
+    </form>
+
+    <div class="boy">
+        <img src="src/boy.png" width="100" height="100">
+    </div>
+
+    <div class="boy-chat">
+        <img src="src/boychat.png" width="710" height="300">
+    </div>
+
+    <div class="sejong">
+        <img src="src/sejong.png" width="100" height="100">
+    </div>
+
+    <div class="sejong-chat">
+        <img src="src/sejongchat.png" width="710" height="80">
+    </div>
+
+    <div class="icon">
+        <img src="src/icon.png" width="100" height="100">
+    </div>
+
+    <div class="sinabro">
+        <img src="src/sinabro2.png" width="180" height="50">
+    </div>
+
+    <div class="geulsi">
+        <img src="src/geulsi.png" width="220" height="400">
+    </div>
+    <div class="glasscat">
+      <img src="src/glasscat.jpg" width ="150" height="150">
+    </div>
+    <div class="glasscat2">
+      <img src="src/glasscat2.jpg" width ="200" height="150">
+    </div>
+
+    <script>
+        var responseStr = new String("이비인후과에 가면 귀, 코, 목 등의 진료를 받을 수 있습니다.");
+        document.write('<p id="output">' + '\"' + responseStr + '\"' + '</p>');
+    </script>
+</body>
+</html>
