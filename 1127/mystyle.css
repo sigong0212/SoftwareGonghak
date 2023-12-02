@@ -59,10 +59,10 @@
         }
 
 
-        #output {
+        #output-container {
             position: absolute;
             top: 460px;
-            left: 670px;
+            left: 500px;
             margin-top: 50px;
             font-size: 17px;
             font-weight: bold;
