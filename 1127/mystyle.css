@@ -1,4 +1,10 @@
-
+        body {
+            overflow: hidden;
+            background-image: url('src/batang.png');
+            background-size: cover;
+            }
+            
+        
         .ipryeuk {
             position: absolute;
             top: 200px;
@@ -26,14 +32,14 @@
 
         .sejong-chat {
             position: absolute;
-            top: 480px;
+            top: 300px;
             right: 130px;
         }
 
         .geulsi {
             position: absolute;
-            top: 40px;
-            right: 90px;
+            top:  0px;
+            right: 50px;
         }
 
         .icon {
@@ -49,27 +55,22 @@
         }
         .glasscat {
             position: absolute;
-            top: 250px;
-            left: 300px;
+            top: 410px;
+            left: 530px;
         }
         .glasscat2 {
             position: absolute;
-            top: 250px;
-            left: 500px;
+            top: 410px;
+            left: 730px;
         }
 
 
         #output-container {
             position: absolute;
-            top: 460px;
-            left: 500px;
+            top: 290px;
+            left: 470px;
             margin-top: 50px;
             font-size: 17px;
             font-weight: bold;
         }
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-image: url('src/batang.png');
-            background-size: cover;
-        }
+        

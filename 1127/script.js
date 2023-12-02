@@ -8,12 +8,10 @@ function processForm() {
       responseStr = "안녕하세요.";
   }
 
-  // 결과를 페이지에 추가
   var outputContainer = document.getElementById('output-container');
   var outputParagraph = document.createElement('p');
   outputParagraph.innerText = '\"' + responseStr + '\"';
 
-  // 기존 내용 제거 후 새로운 결과 추가
   outputContainer.innerHTML = '';
   outputContainer.appendChild(outputParagraph);
 }
