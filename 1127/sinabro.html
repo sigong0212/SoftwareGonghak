@@ -9,7 +9,7 @@
     </style>
 </head>
 <body>
-    <form name="fo" method="get" class="ipryeuk">
+    <form name="fo" method="get" class="ipryeuk" onsubmit="processForm(); return false;">
         <input type="text" size="70" value="단어 또는 문장을 입력하세요">
         <input type="submit" value="완료">
     </form>
@@ -48,9 +48,28 @@
       <img src="src/glasscat2.jpg" width ="200" height="150">
     </div>
 
+    <div id="output-container"></div>
+
     <script>
-        var responseStr = new String("이비인후과에 가면 귀, 코, 목 등의 진료를 받을 수 있습니다.");
-        document.write('<p id="output">' + '\"' + responseStr + '\"' + '</p>');
+        function processForm() {
+            var userInput = document.fo.elements[0].value;
+            var responseStr;
+
+            if (userInput.endsWith("이")) {
+                responseStr = "이빨";
+            } else {
+                responseStr = "안녕하세요.";
+            }
+
+            // 결과를 페이지에 추가
+            var outputContainer = document.getElementById('output-container');
+            var outputParagraph = document.createElement('p');
+            outputParagraph.innerText = '\"' + responseStr + '\"';
+
+            // 기존 내용 제거 후 새로운 결과 추가
+            outputContainer.innerHTML = '';
+            outputContainer.appendChild(outputParagraph);
+        }
     </script>
 </body>
 </html>
