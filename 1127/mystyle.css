@@ -32,7 +32,7 @@
 
         .sejong-chat {
             position: absolute;
-            top: 300px;
+            top: 290px;
             right: 130px;
         }
 
@@ -55,19 +55,19 @@
         }
         .glasscat {
             position: absolute;
-            top: 410px;
-            left: 530px;
+            top: 390px;
+            left: 500px;
         }
         .glasscat2 {
             position: absolute;
-            top: 410px;
-            left: 730px;
+            top: 390px;
+            left: 680px;
         }
 
 
         #output-container {
             position: absolute;
-            top: 290px;
+            top: 275px;
             left: 470px;
             margin-top: 50px;
             font-size: 17px;

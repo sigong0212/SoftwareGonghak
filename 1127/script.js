@@ -18,19 +18,18 @@ function processForm() {
   document.querySelector('.glasscat2 img').src = 'src/chick2.jpeg';
 }
 else if (userInput.endsWith("다")) {
-  responseStr = "다람쥐는 도토리를 좋아해요";
+  responseStr = "다람쥐는 도토리를 무척이나 좋아해요";
   document.querySelector('.glasscat img').src = 'src/squ.jpeg';
   document.querySelector('.glasscat2 img').src = 'src/squ2.jpeg';
-
 }
 else if (userInput.endsWith("요")) {
-  responseStr = "요리를 먹는 것은 언제나 즐거워";
+  responseStr = "요리를 먹는 것은 언제나 즐겁고 감사한 일이야";
   document.querySelector('.glasscat img').src = 'src/food.jpeg';
   document.querySelector('.glasscat2 img').src = 'src/food2.jpeg';
 }
 
 else if (userInput.endsWith("내")) {
-  responseStr = "내 이름은 코난, 탐정이죠";
+  responseStr = "내 이름은 코난, 탐정이죠. 진실은 언제나 하나";
   document.querySelector('.glasscat img').src = 'src/conan.jpeg';
   document.querySelector('.glasscat2 img').src = 'src/conan2.jpeg';
 }
@@ -45,9 +44,60 @@ else if (userInput.endsWith("마")) {
   document.querySelector('.glasscat2 img').src = 'src/pretty2.jpeg';
 }
 
+else if (userInput.endsWith("야")) {
+  responseStr = "야구 경기가 시작되자 관중들은 함성으로 구장을 가득 채웠다";
+  document.querySelector('.glasscat img').src = 'src/baseball.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/baseball2.jpeg';
+}
+else if (userInput.endsWith("기")) {
+  responseStr = "기차에 탄 어린이는 풍경을 바라보며 모험 가득한 꿈을 키워나갔다";
+  document.querySelector('.glasscat img').src = 'src/train.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/train2.jpeg';
+}
+
+else if (userInput.endsWith("해")) {
+  responseStr = "해바라기는 '일편단심' 이라는 뜻을 가지고 있대";
+  document.querySelector('.glasscat img').src = 'src/sunflower.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/sunflower2.jpeg';
+}
+else if (userInput.endsWith("대")) {
+  responseStr = "대나무 숲 속에서 바람이 불면, 고요함과 섞여 신비로운 공간이 된다.";
+  document.querySelector('.glasscat img').src = 'src/daenamu.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/daenamu2.jpeg';
+}
+
+else if (userInput.endsWith("어")) {
+  responseStr = "어부는 바다의 품에서 수확한 물고기들과 함께 하루를 마무리했다.";
+  document.querySelector('.glasscat img').src = 'src/fisher.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/fisher2.jpeg';
+}
+
+else if (userInput.endsWith("보")) {
+  responseStr = "보기 좋은 떡이 먹기도 좋다. 라는 속담이 있습니다.";
+  document.querySelector('.glasscat img').src = 'src/fisher.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/fisher2.jpeg';
+}
+
+else if (userInput.endsWith("아")) {
+  responseStr = "아침을 꼭 챙겨 먹는 것은 중요한 식습관이야.";
+  document.querySelector('.glasscat img').src = 'src/breakfast.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/breakfast2.jpeg';
+}
+
+else if (userInput.endsWith("달")) {
+  responseStr = "달콤함으로 감싸진 아이스크림은 얼음처럼 차갑게 씹혔다.";
+  document.querySelector('.glasscat img').src = 'src/breakfast.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/breakfast2.jpeg';
+}
+
+
+
+
+
+
 
   else {
-      responseStr = "안녕하세요.";
+      responseStr = "아직 문장 입력을 못했어요. 죄송합니다.";
   }
 
   var outputContainer = document.getElementById('output-container');
