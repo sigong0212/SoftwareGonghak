@@ -90,6 +90,26 @@ else if (userInput.endsWith("달")) {
   document.querySelector('.glasscat2 img').src = 'src/breakfast2.jpeg';
 }
 
+else if (userInput.endsWith("니")) {
+  responseStr = "니가 쓴 글씨를 읽으면, 그 안에 담긴 감정이 마음 깊이 전해져.";
+  document.querySelector('.glasscat img').src = 'src/letter.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/letter2.jpeg';
+}
+
+else if (userInput.endsWith("미")) {
+  responseStr = "미술은 감성의 표현이자 마음이 그려지는 캔버스 위의 고요한 대화다.";
+  document.querySelector('.glasscat img').src = 'src/canvas.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/canvas2.jpeg';
+}
+
+else if (userInput.endsWith("자")) {
+  responseStr = "자명종이 울리면 하루가 시작된다.";
+  document.querySelector('.glasscat img').src = 'src/clock.jpeg';
+  document.querySelector('.glasscat2 img').src = 'src/canvas2.jpeg';
+}
+
+
+
 
 
 
